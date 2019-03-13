@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity">
+
+        <ImageButton
+            android:id="@+id/btnCamera"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:paddingBottom="40dp"
+            android:layout_gravity="center|bottom"
+            android:scaleType="fitCenter"
+            android:src="@drawable/kamera"
+            android:background="@null" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_weight="9"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" />
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:paddingTop="20dp"
+            android:layout_gravity="start|top"
+            android:scaleType="fitCenter"
+            android:src="@drawable/homebtn"
+            android:background="@null" />
+
+        <ImageButton
+            android:id="@+id/btnInfo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:paddingTop="20dp"
+            android:layout_gravity="end|top"
+            android:scaleType="fitCenter"
+            android:src="@drawable/infobtn"
+            android:background="@null" />
+
+
+
+</fragment>
+
+
